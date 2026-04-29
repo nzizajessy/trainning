@@ -1,0 +1,152 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+    --primary: #0d6efd;
+    --accent: #ff6600;
+    --dark: #222;
+    --light: #f4f4f4;
+}
+
+/* BODY */
+body {
+    font-family: Arial, sans-serif;
+    background: #e6f2ff;
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(45deg, var(--primary), var(--accent));
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: black;
+    background: white;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+/* NAVIGATION */
+nav {
+    background: lightblue;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+/* ==IMAGES== */
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s ease;
+}
+
+/* hover effect */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* HERO SECTION */
+section {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, var(--primary), var(--accent));
+    color: white;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+section p {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+/* BUTTON */
+button {
+    background: white;
+    color: var(--primary);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: black;
+    color: white;
+}
+
+/* CONTACT PAGE BACKGROUND */
+.contact-page {
+    background: linear-gradient(to right, var(--primary), var(--accent));
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+/* CONTACT FORM CONTAINER */
+.contact-box {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: var(--dark);
+    color: white;
+    margin-top: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+}

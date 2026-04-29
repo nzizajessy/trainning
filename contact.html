@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Jessy's Electronics">
+    <meta name="author" content="Jessy Nziza Kanamugire">
+    <title>Contact - Jessy's Electronics</title>
+</head>
+
+<body style="background-color:whitesmoke;">
+
+    <!-- HEADER -->
+    <header>
+        <h1>Jessy’s Electronics</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <h2>Contact Us</h2>
+
+        <!-- FORM -->
+        <form>
+                <label>Name:</label><br>
+                <input type="text" placeholder="Enter your name" required><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" placeholder="Enter your email" required><br><br>
+
+                <label>Phone:</label><br>
+                <input type="tel" placeholder="078xxxxxxx"><br><br>
+
+                <label>Quantity:</label><br>
+                <input type="number"><br><br>
+
+                <label>Inquiry Type:</label><br>
+                <input type="radio" name="type"> Sales
+                <input type="radio" name="type"> Support<br><br>
+                <label>Message:</label><br>
+                <textarea placeholder="message"required></textarea>
+                <label>Subscribe:</label>
+                <input type="checkbox"> Newsletter<br><br>
+
+                <label>Preferred Contact:</label><br>
+                <select>
+                    <option>Email</option>
+                    <option>Phone</option>
+                </select><br><br>
+
+                <label>Message:</label><br>
+                <textarea rows="4" cols="30"></textarea><br><br>
+
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+            </fieldset>
+
+        </form>
+
+        <!-- AUDIO -->
+        <h3>Welcome Message</h3>
+        <audio controls>
+            <source src="welcome.mp3" type="audio/mpeg">
+        </audio>
+
+        <!-- IMAGE MAP -->
+        <h3>Our Locations</h3>
+        <img src="rwanda-map.png" alt="Rwanda Map" usemap="#rwanda">
+
+        <map name="rwanda">
+            <area shape="rect" coords="34,44,270,350" alt="Kigali">
+        </map>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Jessy’s Electronics</p>
+        <p>Email: jessy@electronics.com 📧</p>
+    </footer>
+
+</body>
+</html>
